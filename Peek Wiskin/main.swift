@@ -7,5 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
-
+var total=1;
+print("enter the number")
+let a=Int(readLine()!)!
+let b=6
+for i in a...b
+{
+    total=total*i;
+    print("total=\(total)")
+}
