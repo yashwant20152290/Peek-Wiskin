@@ -7,12 +7,12 @@
 
 import Foundation
 
-var total=1;
-print("enter the number")
-let a=Int(readLine()!)!
-let b=6
-for i in a...b
+var fact=1;
+
+print("enter the number for which you want the factorial")
+let n = Int(readLine()!)!
+for i in 1...n
 {
-    total=total*i;
-    print("total=\(total)")
+    fact=fact*i;
 }
+print("Factorial=\(fact)")
